@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&family=Roboto:wght@400;700&display=swap');
 
 
 body {
   background-color: rgba(245, 245, 245, 1);
   font-family: Montserrat, 'sans serif';
-  font-weith: 100;
+  font-weight: 300;
   color: rgba(50, 50, 50, 1);
   font-size: 16px;
   line-height: 1.4;
@@ -32,12 +32,12 @@ a {
 }
 
 a:hover {
-  color: rgba(50, 200, 200, 1);
+  color: rgba(50, 50, 170, 0.6);
 }
 
 p {
   display: block;
-  margin: 40px;
+  margin: 30px;
 }
 /*a:visited {
   color: rgba(250, 0, 170, 0.4);
@@ -82,10 +82,10 @@ p {
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
-  margin: 40px;
+  display: inline-block;
 }
 .btn-blue:hover {
-  background-color: rgba(50, 200, 200, 1);
+  background-color: rgba(50, 50, 170, 0.6);
   color: white;
 }
 
